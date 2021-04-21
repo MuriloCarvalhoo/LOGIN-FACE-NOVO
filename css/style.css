@@ -1,0 +1,403 @@
+
+
+body{
+	overflow-y: scroll;
+}
+
+body {
+	background: #fff;
+	color: #1c1e21;
+	direction: ltr;
+	line-height: 1.34;
+	margin: 0;
+	padding: 0;
+	unicode-bidi: embed;
+
+}
+
+body, button, input, label, select, td, textarea{
+	font-family: Helvetica, Arial, sas-serif;
+	font-size: 12px;
+
+}
+
+.Corpo .Corpo .Corpo{
+	overflow: initial;
+}
+
+._-kb{
+	font-family: inherit;
+
+}
+
+a{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.GlobalContainer{
+	margin: 0 auto;
+	padding: 0;
+	zoom: 1.15;
+}
+
+.GlobalContainer:after{
+	clear: both;
+	content: '.';
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+.Main{
+	padding-bottom: 40px;
+	padding-top: 62px;
+	background: #f0f2f5;
+	min-width: 500px;
+	margin: 0;
+	outline: none;
+	width: auto;
+	min-height: 640px;
+}
+
+@media only screen and (max-width: 900px){
+.Corpo .GlobalContainer	.Main {
+    	padding-bottom: 164px;
+    	padding-top: 20px;
+	}
+}
+
+.Main2{
+	padding: 20px 0;
+	position: relative;
+	margin: 0 auto;
+	width: 980px;
+}
+
+@media only screen and (max-width: 1075px){
+.GlobalContainer .Main .Main2 {
+		height: 496px;
+		margin: 0 40px;
+		width: auto;
+	}
+
+}
+
+@media only screen and (max-width: 900px;){
+.GlobalContainer .Main .Main2 {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+}
+
+
+.Part_Esq{
+	box-sizing: border-box;
+	margin-right: 0;
+	padding-right: 32px;
+	width: 580px;
+	display: inline-block !important;
+	vertical-align: top;
+}
+
+@media only screen and (max-width: 1075px){
+.Main .Main2 .Parts_Esq {
+		width: 400px;
+		}
+}
+
+.fb_logo{
+	padding: 112px 0 16px;
+
+}
+
+/*.fb_logo img{
+	height: 106px;
+	margin: -28px;
+}*/
+
+img{
+	border: 0;
+}
+
+h2{
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 32px;
+	width: 500px;
+} 
+
+@media only screen and (max-width: 1075px){
+.Main2 .Part_Esq h2{
+		font-size: 24px;
+		line-height: 28px;
+		width: auto;
+	}
+}
+
+.Part_Dir{
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+@media only screen and (max-width: 1075px){
+.Main .Main2 .Part_Dir{
+		float: right;
+	}
+}
+
+.Part_Dir2{
+	width: 396px;
+	height: 456px;
+}
+
+.Formulario{
+	padding-bottom: 24px;
+	padding-top: 10px;
+	text-align: center;
+	align-items: center;
+	background-color: #fff;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0,0,0, .1), 0 8px 16px rgba(0,0,0, .1);
+	box-sizing: border-box;
+	margin: 40px 0 0;
+	width: 396px;
+
+}
+
+
+form{
+
+	margin: 0;
+	padding: 0;
+	display: block;
+	margin-top: 0;
+	/*width: 396px;
+	height: 311.4px;*/
+}
+
+.Email_Tel{
+	font-size: 17px;
+	width: 364px;
+	display: inline-block;
+	margin: auto;
+	padding: 6px 0px;
+}
+
+.Email_Tel .inputemail {
+	width: 330px;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    background: #FFFFFF;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+    margin: 0;
+
+}
+
+input {
+	-webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.3333px Arial;
+}
+
+.Entrar{
+	padding-top: 6px;
+	text-align: center;
+}
+
+.Entrar2{
+	background-color: #1877f2;
+	border: none;
+	border-radius: 6px;
+	font-size: 20px;
+	line-height: 48px;
+	padding: 0 16px;
+	width: 332px;
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+	white-space: nowrap;
+	color: #fff;
+	box-sizing: content-box;
+	-webkit-font-smoothing: antialiased;
+	font-weight: bold;
+	justify-content: center;
+	position: relative;
+	text-align: center;
+	text-shadow: none;
+	vertical-align: center;
+	margin: 0;
+}
+
+.Esq_Senha{
+	color: #1877f2;
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 16px;
+}
+
+
+.Esq_Senha a{
+	color: #1877f2;
+
+
+}
+
+.linha{
+	align-items: center;
+	border: 1px solid #dadde1;
+	display: flex;
+	margin: 20px 16px;
+	text-align: center;
+
+}
+
+.Criar_Conta{
+	padding-top: 6px;
+	color: white;
+
+}
+
+.Criar_Conta2{
+	border: none;
+	border-radius: 6px;
+	font-size: 17px;
+	line-height: 48px;
+	padding: 0 16px;
+	display: inline-block;
+	text-decoration: none !important;
+	white-space: nowrap;
+	background-color: #42b72a;
+	color: #fff !important;
+	transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+	font-weight: bold;
+	box-sizing: content-box;
+
+}
+
+.Criar_pg{
+	border-top: none;
+	color: #1c1e21;
+	font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding-top: 0;,
+	margin-top: 42px;
+	text-align: center;
+	padding-top: 15px;
+
+
+}
+
+.Criar_pg2{
+	font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: inherit !important;
+}
+
+.main_fotter{
+	padding-top: 20px;
+}
+
+.pageFooter{
+	color: #737373 !important; 
+	margin: 0 auto;
+	width: 980px;
+    font-size: 16px;
+
+}
+
+
+@media only screen and (max-width: 1075px){
+	.main2_fotter .pagefooter{
+		margin: 0 40px;
+		width: auto;
+	}
+}
+
+.pageFooter .classul{
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 8px;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul li{
+	padding-left: 0px;
+	padding-right: 0;
+	vertical-align: top;
+	display: inline-block;
+	border-width: 0 0 0 1px;
+    text-align: -webkit-match-parent;
+
+
+}
+
+ul li:first-child{
+	padding-left: 0;
+}
+
+.pageFooter a{
+    text-decoration: none;
+    white-space: nowrap;
+    color: #8a8d91;
+}
+
+.divisao{
+	border-bottom: 1px solid #dddfe2;
+	font-size: 1px;
+	height: 8px;
+	margin-bottom: 8px;
+}
+
+.pageFooter .copyright{
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.PageFooterChildren .PageFooterChildren_ul{
+	line-height: 1.6;
+    padding-inline-start: 0px;
+}
+
+.pageFooter a:last-child{
+	margin-top: 0;
+}
+
+.PageFooterChildren .PageFooterChildren_ul li{
+	text-align: -webkit-match-parent;
+}
